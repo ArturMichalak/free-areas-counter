@@ -8,7 +8,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "jest --watchAll",
+    "testWatch": "jest --verbose ./dist --watchAll",
+    "test": "jest --verbose ./dist",
     "build": "rollup -c",
     "dev": "rollup -w -c"
   },
